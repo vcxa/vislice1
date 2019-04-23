@@ -1,4 +1,4 @@
 # vislice1
-Jurij Vega
+Marjan Šarec1
 Ivan Vidav
 Jožef Štefan
