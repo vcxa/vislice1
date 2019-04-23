@@ -1,4 +1,4 @@
 # vislice1
-Marjan Šarec1
+Marjan Šarec
 Ivan Vidav
 Jožef Štefan
