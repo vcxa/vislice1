@@ -1,4 +1,4 @@
 # vislice1
-Jurij Vega
+Borut Pahor
 Ivan Vidav
 Jožef Štefan
