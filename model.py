@@ -71,4 +71,22 @@ def nova_igra():
 
 class Vislice:
     def __init__(self, geslo, crke):
-        
+        self.igre = {}
+
+
+    def prost_id_igre(self):
+        if len(self.igre) == 0:
+            return 0
+        else:
+            return max(self.igre.keys()) + 1
+
+    def nova_igra(self):
+        id_igre = self.prost_id_igre()
+        igra = nova_igra()
+        self.igre[id_igre] = (igra, ZACETEK)
+        return id_igre
+
+    def ugibaj(self, id_igre, crka):
+        igra, _ = self.igre[id_igre][0]
+        stanje = igra.ugibaj(crka)
+        self.igre[id_igre] = (igra, stanje)
