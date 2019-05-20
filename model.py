@@ -70,7 +70,7 @@ def nova_igra():
 
 
 class Vislice:
-    def __init__(self, geslo, crke):
+    def __init__(self):
         self.igre = {}
 
 
